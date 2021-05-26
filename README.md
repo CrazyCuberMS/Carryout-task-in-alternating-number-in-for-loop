@@ -1,5 +1,7 @@
-# Carryout-task-in-alternating-number-in-for-loop
+# Carryout-task-in-alternating-number-in-for-loop #
 
+
+```C++
 int main()
 {
     bool alternate = true;
@@ -12,16 +14,14 @@ for (int x = 0; x < 8; x++)
         {
             std::cout << "X ";
             std::cout << "O ";
-
         }
         else
         {
             std::cout << "O ";
             std::cout << "X ";
-
         }
     }
     alternate = !alternate;
-
     std::cout << "\n";
 }
+```
